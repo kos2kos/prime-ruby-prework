@@ -6,6 +6,6 @@ def prime?(num)
     return FALSE
   else
     temp = FALSE
-    arr = (3..num).a
+    arr = (3..num).to_a
     
 end
