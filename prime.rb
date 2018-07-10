@@ -5,8 +5,7 @@ def prime?(num)
   elsif num % 2 == 0 
     return FALSE
   else
-    temp = FALSE
-    arr = (3..100).select(&:odd?)
+    arr = (3..num).select(&:odd?)
 
     bool = FALSE
     i = 0
@@ -16,5 +15,7 @@ def prime?(num)
         i = num + 10
       else
         i+=1
-    
+      end
+    end
+    bool
 end
