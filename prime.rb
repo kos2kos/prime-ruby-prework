@@ -6,7 +6,8 @@ def prime?(num)
     return FALSE
   else
     temp = FALSE
-    arr = (3..num).to_a
+    arr = (3..100).select(&:odd?)
+
     bool = FALSE
     i = 0
     while i < arr.size do
