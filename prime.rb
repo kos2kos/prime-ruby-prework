@@ -7,10 +7,12 @@ def prime?(num)
   else
     temp = FALSE
     arr = (3..num).to_a
-    bool = TRUE
+    bool = FALSE
     i = 0
-    while bool do
-      if num[i] %
+    while i < arr.size do
+      if num % num[i] == 0 
+        bool = TRUE
+        i = num + 10
       
     
 end
