@@ -13,6 +13,7 @@ def prime?(num)
       if num % num[i] == 0 
         bool = TRUE
         i = num + 10
-      
+      else
+        i+=1
     
 end
